@@ -7,6 +7,9 @@ app.get('/mi_ruta', (req, res) => {
   res.status(200).send('OK'); // Envía "OK" con código de estado 200
 });
 
+app.get('/', (req, res) => {
+  res.send('Hello World!');
+})
 // Inicia el servidor en el puerto especificado
 app.listen(port, () => {
   console.log(`Servidor en funcionamiento en http://localhost:${port}`);
