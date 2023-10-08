@@ -8,7 +8,7 @@ app.get('/mi_ruta', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('Hello Worlda!');
 })
 // Inicia el servidor en el puerto especificado
 app.listen(port, () => {
