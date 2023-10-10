@@ -1,4 +1,5 @@
-import { UserDataSource } from "../../Data/DataSources/UserDataSource";
+import { UserDataSource } from "../../Data/DataSources/User/UserAPIDataSource";
+
 import { User } from "../../Domain/Models/User";
 import { UserRepository } from "../../Domain/Repositories/UserRepository";
 
