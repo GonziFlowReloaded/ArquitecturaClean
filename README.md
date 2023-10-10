@@ -1,1 +1,1 @@
-# ArquitecturaClean
+# Arquitectura Clean
